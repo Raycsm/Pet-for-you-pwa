@@ -19,7 +19,7 @@ export default function Breakpoint(props) {
             {props.children}
         </MediaQuery>
     );
-}
+};
 
 React.propTypes = {
 name: string,

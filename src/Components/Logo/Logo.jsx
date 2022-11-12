@@ -11,6 +11,6 @@ const Logo = ({alt, width, height, className}) => {
         className={className}
         /> 
     )
-}
+};
 
 export default Logo;

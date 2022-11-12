@@ -11,6 +11,7 @@ import ChatIcon from '@material-ui/icons/Chat';
 const useStyles = makeStyles({
   root: {
     width: 500,
+    
   },
 });
 

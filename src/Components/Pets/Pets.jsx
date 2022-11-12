@@ -11,6 +11,6 @@ const Pets = ({alt, width, height, className}) => {
         className={className}
         />
     )
-}
+};
 
 export default Pets;

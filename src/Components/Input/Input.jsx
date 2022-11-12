@@ -14,4 +14,5 @@ const Input = ({className, name, placeholder, type}) => {
     )
 }
 
+
 export default Input;

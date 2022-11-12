@@ -9,4 +9,4 @@ export default function DesktopBreakpoint(props) {
             {props.children}
         </Breakpoint>
     );
-}
+};
