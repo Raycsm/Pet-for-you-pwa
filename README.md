@@ -2,7 +2,7 @@
 
 Projeto desenvolvido para a realização de um aplicativo de adoção de animais para a cidade de Campo Grande, MS.
 
-[🔗 Clique aqui para acessar](https://github.com/Raycsm/Pet-For-You)
+[🔗 Clique aqui para acessar](https://github.com/Raycsm/Pet-for-you-pwa)
 
 
 ## __🛠 Tecnologias__
