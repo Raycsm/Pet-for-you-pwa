@@ -1,0 +1,26 @@
+{
+    "data" : {
+      "light" : {
+        "id": "L_001",
+        "name": "Light",
+        "colors": {
+          "primary": "#DB652F",
+          "body": "#FFFFFF",
+          "text": "#434242",
+          "button": {
+            "text": "#FFFFFF",
+            "background": "#DB652F"
+          },
+          "link": {
+            "text": "#db652f",
+            "opacity": 1
+            
+          },
+          "input":{
+            "background": "#837F7F"
+            }
+        },  
+        "font": "Arial"
+        }
+    }
+}
