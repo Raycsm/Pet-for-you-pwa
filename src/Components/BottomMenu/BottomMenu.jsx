@@ -15,7 +15,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function BottomMenu() {
+const BottomMenu = () => {
   const classes = useStyles();
   const [value, setValue] = React.useState('Home');
 
@@ -33,3 +33,5 @@ export default function BottomMenu() {
     </BottomNavigation>
   );
 }
+
+export default BottomMenu;

@@ -1,11 +1,10 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import Button from "../../Components/Button/Button";
+import Input from "../../Components/Input/Input";
+import Links from "../../Components/Link/Link";
 import Logo from "../../Components/Logo/Logo";
 import Pets from "../../Components/Pets/Pets";
-import Links from "../../Components/Link/Link";
-import Button from "../../Components/Button/Button"
-import Input from "../../Components/Input/Input"
-import "./Login.css"
+import "./Login.css";
 
 export default function Login() {
 

@@ -7,7 +7,7 @@ import Button from "../../Components/Button/Button"
 import Input from "../../Components/Input/Input"
 import "./EsqueciSenha.css"
 
-export default function EsqueciSenha() {
+const EsqueciSenha = () => {
 
   return (
 
@@ -46,3 +46,5 @@ export default function EsqueciSenha() {
     </>
   );
 }
+
+export default EsqueciSenha;

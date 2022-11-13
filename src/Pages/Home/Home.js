@@ -1,22 +1,20 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
+import { FilterList } from "@material-ui/icons";
 import React from "react";
-import Logo from "../../Components/Logo/Logo";
-import "./Home.css"
 import BottomMenu from "../../Components/BottomMenu/BottomMenu";
+import Logo from "../../Components/Logo/Logo";
+import "./Home.css";
 
 export default function Home() {
 
   return (
-
-    <>
-      <main>
-        <div>
-            <Logo className="logo" alt='logo' width={120} height={80} />
-        </div>
-        <div>
-            <BottomMenu />
-        </div>
-      </main>
-    </>
+    <main>
+      <div>
+        <Logo className="logo" alt='logo' width={120} height={80} />
+        <FilterList to='/Filter' />
+      </div>
+      <div>
+        <BottomMenu />
+      </div>
+    </main>
   );
 }
