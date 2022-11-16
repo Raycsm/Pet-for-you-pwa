@@ -1,7 +1,7 @@
 import React from "react";
-import Button from "../../componentes/Button/Button";
+import Button from "../../Components/Button/Button";
 
-function Filtro() {
+const Filtro = () => {
   return (
     <div>
       <h1>Filtros</h1>

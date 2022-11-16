@@ -9,6 +9,7 @@ import StylesGlobal from "./styles/StylesGlobal/StylesGlobal";
 import { useTheme } from './styles/Theme/UseTheme';
 
 import EsqueciSenha from "./pages/EsqueciSenha/EsqueciSenha";
+import Filtro from "./pages/Filtro/Filtro";
 import Home from "./pages/Home/Home";
 import Login from './pages/Login/Login';
 
@@ -36,6 +37,7 @@ function App()  {
               <Route path="/" exact element={<Login />} />
               <Route path="/Esqueciasenha" exact element={<EsqueciSenha />} />
               <Route path="/Home" exact element={<Home />} />
+              <Route path="/Filter" exact element={<Filtro />} />
             </Routes>
         </Router> 
         </div> 
