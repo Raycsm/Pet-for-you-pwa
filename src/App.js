@@ -1,16 +1,16 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 
-import {useTheme} from './styles/Theme/UseTheme'
-import StylesGlobal from "./styles/StylesGlobal/StylesGlobal";
 import DesktopBreakpoint from "./Components/responsive_utilities/desktop_breakpoint";
-import TabletBreakpoint from "./Components/responsive_utilities/tablet_breakpoint";
 import PhoneBreakpoint from "./Components/responsive_utilities/phone_breakpoint";
+import TabletBreakpoint from "./Components/responsive_utilities/tablet_breakpoint";
+import StylesGlobal from "./styles/StylesGlobal/StylesGlobal";
+import { useTheme } from './styles/Theme/UseTheme';
 
-import Login from './Pages/Login/Login'
-import EsqueciSenha from "./Pages/EsqueciSenha/EsqueciSenha";
-import Home from "./Pages/Home/Home";
+import EsqueciSenha from "./pages/EsqueciSenha/EsqueciSenha";
+import Home from "./pages/Home/Home";
+import Login from './pages/Login/Login';
 
 function App()  {
 
