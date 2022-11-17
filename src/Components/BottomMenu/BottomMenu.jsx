@@ -1,17 +1,19 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
 import BottomNavigation from '@material-ui/core/BottomNavigation';
 import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
+import { makeStyles } from '@material-ui/core/styles';
+import ChatIcon from '@material-ui/icons/Chat';
+import FaceIcon from '@material-ui/icons/Face';
+import FavoriteIcon from '@material-ui/icons/Favorite';
 import HomeIcon from '@material-ui/icons/Home';
 import PetsIcon from '@material-ui/icons/Pets';
-import FavoriteIcon from '@material-ui/icons/Favorite';
-import FaceIcon from '@material-ui/icons/Face';
-import ChatIcon from '@material-ui/icons/Chat';
+import React from 'react';
 
 const useStyles = makeStyles({
   root: {
-    width: 500,
-    
+    width: 200,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 10,
   },
 });
 
