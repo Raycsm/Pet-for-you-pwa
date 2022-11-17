@@ -37,7 +37,7 @@ function App()  {
               <Route path="/" exact element={<Login />} />
               <Route path="/Esqueciasenha" exact element={<EsqueciSenha />} />
               <Route path="/Home" exact element={<Home />} />
-              <Route path="/Filter" exact element={<Filtro />} />
+              <Route path="/Filtro" exact element={<Filtro />} />
             </Routes>
         </Router> 
         </div> 

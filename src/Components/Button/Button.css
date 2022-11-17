@@ -9,6 +9,7 @@ button {
     background-color: #DB652F;
     color: #FFFFFF;
     cursor: pointer;
+    /* justify-content: center; */
   }
 
 button:hover{

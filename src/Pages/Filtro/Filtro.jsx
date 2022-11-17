@@ -1,55 +1,61 @@
 import React from "react";
 import Button from "../../Components/Button/Button";
+import '../Filtro/Filtro.css';
 
 const Filtro = () => {
   return (
-    <div>
-      <h1>Filtros</h1>
+    <div className="main">
+      <h1 className="titulo">Filtros</h1>
 
       <form>
         <div>
-          <p>Raio em KM</p>
+          <p className="text_s">Raio em KM</p>
         </div>
 
-        <div>
-          <p>Eu quero adotar</p>
-          <div>
-            <Button className="botao" type="race">Cachorro</Button>
-            <Button className="botao"type="race">Pássaro</Button>
+        <p className="text_s">Eu quero adotar</p>
+        <div className="adotar">
+          <div className="top">
+            <Button className="botao_filtro" type="race">Cachorro</Button>
+            <Button className="botao_filtro" type="race">Pássaro</Button>
           </div>
-          <div>
-            <Button className="botao" type="race">Gato</Button>
-            <Button className="botao" type="race">Roedores</Button>
+          <div className="down">
+            <Button className="botao_filtro" type="race">Gato</Button>
+            <Button className="botao_filtro" type="race">Roedores</Button>
           </div>
-          <Button className="botao" type="race">Outros</Button>
+          <div className="outros">
+            <Button className="botao_filtro" type="race">Outros</Button>
+          </div>
+
         </div>
 
-        <div>
-          <p>Raça</p>
-          <select className="select" type="race" />
+        <div className="raca">
+          <p className="text_s">Raça</p>
+          <div className="select_r">
+            <select className="select" type="race" />
+          </div>
         </div>
 
-        <div>
-          <p>Sexo</p>
-          <Button className="botao" type="race">Macho</Button>
-          <Button className="botao" type="race">Fêmea</Button>
+        <p className="text_s">Sexo</p>
+        <div className="sexo">
+          <Button className="botao_filtro" type="race">Macho</Button>
+          <Button className="botao_filtro" type="race">Fêmea</Button>
         </div>
 
-        <div>
-          <p>Faixa etária</p>
-          <Button className="botao" type="race">Filhore</Button>
-          <Button className="botao" type="race">Adulto</Button>
-          <Button className="botao" type="race">Idoso</Button>
+        <p className="text_s">Faixa etária</p>
+        <div className="faixa_etaria">
+          <Button className="botao_filtro" type="race">Filhote</Button>
+          <Button className="botao_filtro" type="race">Adulto</Button>
+          <Button className="botao_filtro" type="race">Idoso</Button>
         </div>
 
-        <div>
-          <p>Porte</p>
+        <p className="text_s">Porte</p>
+        <div className="porte">
+          <Button className="botao_filtro" type="race">Pequeno</Button>
+          <Button className="botao_filtro" type="race">Médio</Button>
+          <Button className="botao_filtro" type="race">Grande</Button>
         </div>
-          <Button className="botao" type="race">Pequeno</Button>
-          <Button className="botao" type="race">Médio</Button>
-          <Button className="botao" type="race">Grande</Button>
 
-        <div className="botao">
+        <div className="botao_entrar">
           <Button rel="botao">
             Entrar
           </Button>

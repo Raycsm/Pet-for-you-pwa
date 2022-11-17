@@ -1,7 +1,9 @@
-import BottomNavigation from '@material-ui/core/BottomNavigation';
-import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
+// import BottomNavigation from '@material-ui/core/BottomNavigation';
+// import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
 import { makeStyles } from '@material-ui/core/styles';
 import { FilterList } from '@material-ui/icons';
+import Links from "../../Components/Link/Link";
+
 import React from "react";
 import BottomMenu from "../../Components/BottomMenu/BottomMenu";
 import Logo from "../../Components/Logo/Logo";
@@ -26,9 +28,7 @@ export default function Home() {
     <main>
       <div>
         <Logo className="logo" alt='logo' width={120} height={80} />
-        <BottomNavigation value={value} onChange={handleChange} className={classes.root}>
-          <BottomNavigationAction color="primary" value="filtro" icon={<FilterList />} to='/Filter' />
-        </BottomNavigation>
+          <Links color="primary" className="filtro" to='/Filtro'><FilterList /></Links>
       </div>
       <div>
         <BottomMenu />
