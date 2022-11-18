@@ -1,6 +1,6 @@
-import React, {useState, useEffect} from "react"
+import React from "react"
 //import { useAuth, upload } from "../../firebase";
-import user from "../../Assets/user.png"
+import user from "../../assets/user.png"
 import './ProfilePhoto.css'
 
 export default function ProfilePhoto(){
