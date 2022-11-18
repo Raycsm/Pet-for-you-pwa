@@ -1,7 +1,5 @@
 main {
   display: column;
-  justify-content: center;
-  margin-bottom: 30px;
 }
 
 .escopo {
