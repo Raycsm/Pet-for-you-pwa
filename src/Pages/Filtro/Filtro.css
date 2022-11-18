@@ -1,12 +1,10 @@
-.main {
-  margin: 10px;
-  margin-left: 190px;
-  margin-right: 190px;
-}
-
 .text_s {
   text-align: left;
   margin-bottom: 30px;
+}
+
+form {
+  margin-top: 25px;
 }
 
 .input{
@@ -39,10 +37,10 @@
 
 .botao_filtro{
   display: row;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 5px;
+  margin-bottom: 20px;
   background-color: gray;
-  width: 80px;
+  width: 125px;
   margin-right: 20px;
   border-radius: 15px;
 }
