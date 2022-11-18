@@ -8,6 +8,7 @@ import TabletBreakpoint from "./Components/responsive_utilities/tablet_breakpoin
 import StylesGlobal from "./styles/StylesGlobal/StylesGlobal";
 import { useTheme } from './styles/Theme/UseTheme';
 
+import CriarConta from "./pages/CriarConta/CriarConta";
 import EsqueciSenha from "./pages/EsqueciSenha/EsqueciSenha";
 import Filtro from "./pages/Filtro/Filtro";
 import Home from "./pages/Home/Home";
@@ -38,6 +39,7 @@ function App()  {
               <Route path="/Esqueciasenha" exact element={<EsqueciSenha />} />
               <Route path="/Home" exact element={<Home />} />
               <Route path="/Filtro" exact element={<Filtro />} />
+              <Route path="/Criarconta" exact element={<CriarConta />} />
             </Routes>
         </Router> 
         </div> 
