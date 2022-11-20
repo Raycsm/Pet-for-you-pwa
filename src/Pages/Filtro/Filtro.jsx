@@ -1,68 +1,198 @@
-import React from "react";
+import { Box } from '@mui/material';
+import Slider from '@mui/material/Slider';
+import Stack from '@mui/material/Stack';
+import React, { useState } from "react";
 import Button from "../../Components/Button/Button";
-import '../Filtro/Filtro.css';
+import './Filtro.css';
 
-const Filtro = () => {
+export default function Filtro() {
+  const [distance, setDistance] = useState(100);
+  const [dog, setDog] = useState(false);
+  const [bird, setBird] = useState(false);
+  const [cat, setCat] = useState(false);
+  const [mouse, setMouse] = useState(false);
+  const [others, setOthers] = useState(false);
+  const [filhote, setFilhote] = useState(false);
+  const [adulto, setAdulto] = useState(false);
+  const [idoso, setIdoso] = useState(false);
+  const [pequeno, setPequeno] = useState(false);
+  const [medio, setMedio] = useState(false);
+  const [grande, setGrande] = useState(false);
+
+  const handleChange = (event, newDistance) => {
+    setDistance(newDistance);
+  };
+
   return (
-    <div className="main">
-      <h1 className="titulo">Filtros</h1>
+    <Box
+      marginTop={2}
+      height={930}
+    >
+      <Stack
+        direction="column"
+        justifyContent="center"
+        alignItems="center"
+        spacing={4}
+      >
+        <h1 className="titulo">Filtros</h1>
 
-      <form>
-        <div>
-          <p className="text_s">Raio em KM</p>
-        </div>
+        <Stack
+          direction="column"
+          justifyContent="center"
+          alignItems="center"
+        >
+          <div>
+            <h3 className="text">Raio em KM</h3>
 
-        <p className="text_s">Eu quero adotar</p>
-        <div className="adotar">
-          <div className="top">
-            <Button className="botao_filtro" type="race">Cachorro</Button>
-            <Button className="botao_filtro" type="race">Pássaro</Button>
+            <Slider
+              marginRight={4}
+              sx={{
+                width: 290,
+                color: '#ba4a16',
+              }}
+              value={distance}
+              onChange={handleChange}
+            />
           </div>
-          <div className="down">
-            <Button className="botao_filtro" type="race">Gato</Button>
-            <Button className="botao_filtro" type="race">Roedores</Button>
+        </Stack>
+
+        <Stack
+          direction="column"
+          justifyContent="center"
+          alignItems="center"
+        >
+          <div>
+            <h3 className="text">Eu quero adotar</h3>
+
+            <Stack
+              direction="row"
+              justifyContent="center"
+              alignItems="center"
+              spacing={4}
+            >
+              <Button className="botao_filtro" value={dog} type="dog">Cachorro</Button>
+              <Button className="botao_filtro" value={bird} type="bird">Pássaro</Button>
+            </Stack>
+            <Stack
+              direction="row"
+              justifyContent="center"
+              alignItems="center"
+              spacing={4}
+            >
+              <Button className="botao_filtro" value={cat} type="cat">Gato</Button>
+              <Button className="botao_filtro" value={mouse} type="other">Roedores</Button>
+            </Stack>
+            <Stack
+              direction="row"
+              justifyContent="center"
+              alignItems="center"
+              spacing={4}
+            >
+              <Button className="botao_filtro" value={others} type="race">Outros</Button>
+            </Stack>
           </div>
-          <div className="outros">
-            <Button className="botao_filtro" type="race">Outros</Button>
+        </Stack>
+
+        <Stack
+          direction="column"
+          justifyContent="center"
+          alignItems="center"
+        >
+          <div>
+            <h3 className="text">Sexo</h3>
+
+            <Stack
+              direction="row"
+              justifyContent="center"
+              alignItems="center"
+              spacing={2}
+            >
+              <Stack
+                direction='row'
+                spacing={2}
+                justifyContent="center"
+                alignItems="center"
+              >
+                <Button className="botao_filtro" value={dog} type="macho">Macho</Button>
+              </Stack>
+              <Button className="botao_filtro" value={dog} type="femea">Fêmea</Button>
+            </Stack>
           </div>
+        </Stack>
 
-        </div>
+        <Stack
+          direction="column"
+          justifyContent="center"
+          alignItems="center"
+        >
+          <div>
+            <h3 className="text">Faixa etária</h3>
 
-        <div className="raca">
-          <p className="text_s">Raça</p>
-          <div className="select_r">
-            <select className="select" type="race" />
+            <Stack
+              direction="row"
+              justifyContent="center"
+              alignItems="center"
+              spacing={4}
+            >
+              <Button className="botao_filtro" value={filhote} type="filho">Filhote</Button>
+              <Button className="botao_filtro" value={adulto} type="adulto">Adulto</Button>
+            </Stack>
+
+            <Stack
+              direction="row"
+              justifyContent="center"
+              alignItems="center"
+              spacing={4}
+            >
+              <Button className="botao_filtro" value={idoso} type="idoso">Idoso</Button>
+            </Stack>
           </div>
-        </div>
+        </Stack>
 
-        <p className="text_s">Sexo</p>
-        <div className="sexo">
-          <Button className="botao_filtro" type="race">Macho</Button>
-          <Button className="botao_filtro" type="race">Fêmea</Button>
-        </div>
+        <Stack
+          direction="column"
+          justifyContent="center"
+          alignItems="center"
+        >
+          <div>
+            <h3 className="text">Porte</h3>
 
-        <p className="text_s">Faixa etária</p>
-        <div className="faixa_etaria">
-          <Button className="botao_filtro" type="race">Filhote</Button>
-          <Button className="botao_filtro" type="race">Adulto</Button>
-          <Button className="botao_filtro" type="race">Idoso</Button>
-        </div>
+            <Stack
+              direction="row"
+              justifyContent="center"
+              alignItems="center"
+              spacing={4}
+            >
+              <Button className="botao_filtro" value={pequeno} type="pequeno">Pequeno</Button>
+              <Button className="botao_filtro" value={medio} type="medio">Médio</Button>
+            </Stack>
 
-        <p className="text_s">Porte</p>
-        <div className="porte">
-          <Button className="botao_filtro" type="race">Pequeno</Button>
-          <Button className="botao_filtro" type="race">Médio</Button>
-          <Button className="botao_filtro" type="race">Grande</Button>
-        </div>
+            <Stack
+              direction="row"
+              justifyContent="center"
+              alignItems="center"
+              spacing={4}
+            >
+              <Button className="botao_filtro" value={grande} type="grande">Grande</Button>
+            </Stack>
+          </div>
+        </Stack>
 
-        <div className="botao_entrar">
-          <Button rel="botao">
-            Entrar
-          </Button>
-        </div>
-      </form>
-    </div>
+        <Stack
+          direction="column"
+          justifyContent="center"
+          alignItems="center"
+        >
+          <div>
+            <Button
+              rel="botao"
+              marginBottom={15}
+            >
+              Entrar
+            </Button>
+          </div>
+        </Stack>
+      </Stack>
+    </Box>
   )
 }
-
-export default Filtro;

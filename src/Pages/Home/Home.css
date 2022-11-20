@@ -1,0 +1,14 @@
+main {
+  display: column;
+}
+
+.escopo {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+p{
+  margin-bottom: 30px;
+  align-content: center;
+}

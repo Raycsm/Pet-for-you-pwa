@@ -1,83 +1,15 @@
-.main {
-  margin: 10px;
-  margin-left: 190px;
-  margin-right: 190px;
+.text {
+  margin-top: 25px;
+  margin-bottom: 10px;
 }
 
-.text_s {
-  text-align: left;
-  margin-bottom: 30px;
-}
-
-.input{
-  margin-bottom: 20px;
-}
-
-.adotar {
-  display: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.top {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.down {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.outros {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+div {
+  margin-right: 4px;
 }
 
 .botao_filtro{
-  display: row;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 5px;
   background-color: gray;
-  width: 80px;
-  margin-right: 20px;
+  width: 125px;
   border-radius: 15px;
-}
-
-.botao_entrar {
-  display: flex;
-  justify-content: center;
-}
-
-p{
-  font-size: 14px;
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-.select_r {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 30px;
-}
-
-.sexo {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 30px;
-}
-
-.faixa_etaria {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 30px;
-}
-
-.porte {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 30px;
 }
