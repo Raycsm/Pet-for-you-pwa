@@ -6,20 +6,8 @@ import BottomMenu from "../../Components/BottomMenu/BottomMenu";
 import Logo from "../../Components/Logo/Logo";
 import "./Home.css";
 
-const useStyles = makeStyles({
-  root: {
-    width: 500,
-    
-  },
-});
-
 export default function Home() {
-  const classes = useStyles();
-  const [value, setValue] = React.useState('Home');
-
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-  };
+  
 
   return (
     <main>
@@ -39,5 +27,3 @@ export default function Home() {
     </main>
   );
 }
-
-export default Home;
