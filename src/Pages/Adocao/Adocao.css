@@ -1,0 +1,26 @@
+.titulo-meu-perfil{
+    text-align: center;
+    font-size:22px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+
+.botao-adocao{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 170px;
+    height: 140px; 
+    background-color: #DB652F;     
+}
+
+.botao-adocao:hover{
+    background-color: #ba4a16;
+  }
+
+.icon-dog{
+    margin-bottom: 5px;
+
+}
+
+

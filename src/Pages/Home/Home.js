@@ -11,7 +11,7 @@ import "./Home.css";
 
 const useStyles = makeStyles({
   root: {
-    width: 500,
+    width: 'auto',
     
   },
 });

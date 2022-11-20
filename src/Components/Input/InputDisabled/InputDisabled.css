@@ -1,0 +1,9 @@
+#disabled {
+    width: 310px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #bdbdbd;
+    font-size: 14px;
+    border: none;
+    padding: 20px;    
+};

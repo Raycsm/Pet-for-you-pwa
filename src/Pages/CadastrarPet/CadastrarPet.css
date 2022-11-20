@@ -1,0 +1,70 @@
+.input-pet{
+    margin-bottom: 20px;
+}
+
+.input-pet:focus{
+    outline-color: #DB652F;
+}
+
+.container-pet{
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.vacinado{
+    margin-right: 60px;
+}
+
+.radio-group-sexo{
+    display: flex;
+}
+
+.input-text-area{
+    width: 310px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #E7E6E5;
+    font-size: 14px;
+    border: none;
+    padding: 20px;  
+    font-family: "Arial";
+}
+
+.input-text-area:focus{
+    outline-color: #DB652F;
+}
+
+.botao-cadastrar-pet{
+    margin-top: 30px; 
+    margin-bottom: 30px;
+    width: 310px;
+    height: 50px;      
+}
+
+.titulo-cadastrar-pet{
+    text-align: center;
+    font-size:22px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+
+.select-pet{
+    width: 310px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #E7E6E5;
+    font-size: 14px;
+    border: none;
+    padding: 15px;   
+    margin-bottom: 20px; 
+}
+
+.select-pet:focus{
+    outline-color: #DB652F;
+}
+
+option:checked { 
+    background-color: #DB652F;
+    color: #fff; 
+}

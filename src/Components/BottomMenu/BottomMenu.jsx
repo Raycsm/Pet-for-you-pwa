@@ -10,28 +10,29 @@ import ChatIcon from '@material-ui/icons/Chat';
 
 const useStyles = makeStyles({
   root: {
-    width: 500,
+    width:500
     
   },
 });
 
-const BottomMenu = () => {
-  const classes = useStyles();
-  const [value, setValue] = React.useState('Home');
+export default function BottomMenu() {
 
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-  };
+  const classes = useStyles();
+  const [value, setValue] = React.useState(0);
 
   return (
-    <BottomNavigation value={value} onChange={handleChange} className={classes.root}>
-      <BottomNavigationAction color="primary" label="Home" value="home" icon={<HomeIcon />} to='/Home' />
+    <BottomNavigation 
+      value={value}
+      onChange={(event, newValue) => {
+      setValue(newValue);
+    }}
+      showLabels
+      className={classes.root}>
+      <BottomNavigationAction label="Home" value="home" icon={<HomeIcon />} to='/Home' />
       <BottomNavigationAction label="Favoritos" value="favoritos" icon={<FavoriteIcon />} />
-      <BottomNavigationAction label="Adoção" value="adoção" icon={<PetsIcon />} />
+      <BottomNavigationAction label="Adoção" value="adoção" icon={<PetsIcon />} to='/Adocao' />
       <BottomNavigationAction label="Chat" value="chat" icon={<ChatIcon />} />
       <BottomNavigationAction label="Perfil" value="perfil" icon={<FaceIcon />} />
     </BottomNavigation>
   );
 }
-
-export default BottomMenu;

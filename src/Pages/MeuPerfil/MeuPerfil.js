@@ -2,6 +2,7 @@
 import React, {useState} from "react";
 import Button from "../../Components/Button/Button"
 import Input from "../../Components/Input/Input";
+import InputDisabled from "../../Components/Input/InputDisabled/InputDisabled"
 import SelectEstado from "../../Components/Selects/SelectEstado/SelectEstado";
 import ProfilePhoto from "../../Components/ProfilePhoto/ProfilePhoto";
 import "./MeuPerfil.css"
@@ -22,6 +23,13 @@ export default function MeuPerfil() {
   return (
     <>
       <main>
+        <div>
+            <p></p>
+        </div>
+
+        <div>
+            <h1 className="titulo-meu-perfil">Meu perfil</h1>
+        </div>
 
         <form>
             <div>
@@ -29,30 +37,32 @@ export default function MeuPerfil() {
             </div>
 
             <div>
-              <Input 
+              <InputDisabled 
               className="input-meu-perfil" 
               name="nome" 
-              placeholder="Digite seu nome" 
+              placeholder="Nome" 
               type="text"
               defaultValue={nome}
-              onChangeText={setNome} />
+              onChangeText={setNome}
+              disabled="true" />
             </div>
 
             <div>
-              <Input 
+              <InputDisabled 
               className="input-meu-perfil" 
               name="cpf" 
-              placeholder="Digite seu CPF" 
+              placeholder="CPF" 
               type="text"
               defaultValue={cpf}
-              onChangeText={setCpf} />
+              onChangeText={setCpf}
+              disabled="true" />
             </div>
                     
             <div>
               <Input 
               className="input-meu-perfil" 
               name="email" 
-              placeholder="Digite seu e-mail" 
+              placeholder="E-mail" 
               type="email"
               defaultValue={email}
               onChangeText={setEmail} />
@@ -62,7 +72,7 @@ export default function MeuPerfil() {
               <Input 
               className="input-meu-perfil" 
               name="senha" 
-              placeholder="Digite sua senha" 
+              placeholder="Senha" 
               type="password"
               defaultValue={senha}
               onChangeText={setSenha} />
@@ -72,7 +82,7 @@ export default function MeuPerfil() {
               <Input 
               className="input-meu-perfil" 
               name="telefone" 
-              placeholder="Digite seu telefone" 
+              placeholder="Telefone" 
               type="text"
               defaultValue={telefone}
               onChangeText={setTelefone} />
@@ -82,7 +92,7 @@ export default function MeuPerfil() {
               <Input 
               className="input-meu-perfil" 
               name="endereço" 
-              placeholder="Digite seu endereço" 
+              placeholder="Endereço" 
               type="text"
               defaultValue={endereco}
               onChangeText={setEndereco} />
@@ -92,7 +102,7 @@ export default function MeuPerfil() {
               <Input 
               className="input-meu-perfil" 
               name="bairro" 
-              placeholder="Digite seu bairro" 
+              placeholder="Bairro" 
               type="text" 
               defaultValue={bairro}
               onChangeText={setBairro}/>
@@ -106,9 +116,9 @@ export default function MeuPerfil() {
 
             <div>
               <Input 
-              className="input-conta" 
+              className="input-meu-perfil" 
               name="cidade" 
-              placeholder="Digite sua cidade" 
+              placeholder="Cidade" 
               type="text" 
               defaultValue={cidade}
               onChangeText={setCidade}/>

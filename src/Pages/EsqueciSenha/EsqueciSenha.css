@@ -1,6 +1,7 @@
 .input_s{
     margin-bottom: 20px;
     margin-top: 40px;
+    outline-color:  #DB652F; 
 }
 
 .botao_s{
@@ -12,8 +13,13 @@
     margin-top: 60px;
 }
 
-p{
+.text_s{
     font-size: 14px;
     margin-bottom: 30px;
+    text-align: center;
+    margin-left: 50px;     
+}
+
+.link-login{
     text-align: center;
 }

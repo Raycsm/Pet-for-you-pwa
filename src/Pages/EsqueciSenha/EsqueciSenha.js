@@ -34,7 +34,7 @@ const EsqueciSenha = () => {
           </div>
           
           <div>
-            <p className="text_s">Já possui uma conta? <Links to="/" className="link">Faça Login</Links></p>
+            <p className="text_s">Já possui uma conta? <Links to="/" className="link-login">Faça Login</Links></p>
           </div>  
         </form>
       

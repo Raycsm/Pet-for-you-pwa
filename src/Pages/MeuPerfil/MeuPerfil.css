@@ -2,6 +2,17 @@
     margin-bottom: 20px;
 }
 
+.input-meu-perfil:focus{
+    outline-color: #bd501e;
+  }
+
+.titulo-meu-perfil{
+    text-align: center;
+    font-size:22px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+
 .botao-meu-perfil{
     margin-top: 30px; 
     margin-bottom: 30px;
@@ -15,8 +26,7 @@
   }
 
 .botao-excluir-conta{
-    margin-top: 30px; 
-    margin-bottom: 30px;
+    margin-top: 20px; 
     width: 310px;
     height: 50px; 
     background-color: #850c0a;     
@@ -26,7 +36,7 @@
     background-color: #540d09;
   }
 
-.text-criar-conta{
+.text-meu-perfil{
     font-size: 14px;
     margin-bottom: 30px;
     text-align: center;

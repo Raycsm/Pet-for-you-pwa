@@ -17,15 +17,16 @@ export const StylesGlobal = createGlobalStyle`
     color: ${({ theme }) => theme.colors.link.text};
   };
 
-  .logo{
-    margin-bottom: 40px;
-    margin-left: 80px;
-    margin-top: 30px;
-}
   .titulo{
     text-align: center;
     font-size:22px;
     font-weight: bolder;  
+}
+
+.logo{
+    margin-bottom: 40px;
+    margin-left: 80px;
+    margin-top: 30px;
 }
 
 .select {

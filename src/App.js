@@ -8,10 +8,14 @@ import TabletBreakpoint from "./Components/responsive_utilities/tablet_breakpoin
 import StylesGlobal from "./styles/StylesGlobal/StylesGlobal";
 import { useTheme } from './styles/Theme/UseTheme';
 
-import EsqueciSenha from "./pages/EsqueciSenha/EsqueciSenha";
-import Filtro from "./pages/Filtro/Filtro";
-import Home from "./pages/Home/Home";
-import Login from './pages/Login/Login';
+import EsqueciSenha from "./Pages/EsqueciSenha/EsqueciSenha"
+import Filtro from "./Pages/Filtro/Filtro";
+import Home from "./Pages/Home/Home";
+import Login from './Pages/Login/Login';
+import CriarConta from "./Pages/CriarConta/CriarConta";
+import MeuPerfil from "./Pages/MeuPerfil/MeuPerfil";
+import Adocao from "./Pages/Adocao/Adocao";
+import CadastrarPet from "./Pages/CadastrarPet/CadastrarPet";
 
 function App()  {
 
@@ -36,8 +40,12 @@ function App()  {
             <Routes>
               <Route path="/" exact element={<Login />} />
               <Route path="/Esqueciasenha" exact element={<EsqueciSenha />} />
+              <Route path="/Criarconta" exact element={<CriarConta />} />
               <Route path="/Home" exact element={<Home />} />
+              <Route path="/Adocao" exact element={<Adocao />} />
+              <Route path="/Meuperfil" exact element={<MeuPerfil />} />
               <Route path="/Filtro" exact element={<Filtro />} />
+              <Route path="/Cadastrarpet" exact element={<CadastrarPet />} />
             </Routes>
         </Router> 
         </div> 

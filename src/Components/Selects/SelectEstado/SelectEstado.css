@@ -9,6 +9,10 @@
     margin-bottom: 20px; 
 }
 
+.select-estado:focus{
+    outline-color: #DB652F;
+  }
+
 option:checked { 
     background-color: #DB652F;
     color: #fff; 
