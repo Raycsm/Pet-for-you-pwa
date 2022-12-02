@@ -40,7 +40,7 @@ export const StylesGlobal = createGlobalStyle`
   };
 
   .select:focus{
-    outline-color:  #DB652F; 
+    outline-color: #DB652F ; 
   }
 
   .input:focus{

@@ -1,5 +1,5 @@
 import React from "react";
-import pets from "../../Assets/pets.png"
+import pets from "../../assets/pets.png"
 
 const Pets = ({alt, width, height, className}) => {
     return(

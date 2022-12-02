@@ -8,11 +8,15 @@ import TabletBreakpoint from "./Components/responsive_utilities/tablet_breakpoin
 import StylesGlobal from "./styles/StylesGlobal/StylesGlobal";
 import { useTheme } from './styles/Theme/UseTheme';
 
-import CriarConta from "./pages/CriarConta/CriarConta";
-import EsqueciSenha from "./pages/EsqueciSenha/EsqueciSenha";
-import Filtro from "./pages/Filtro/Filtro";
-import Home from "./pages/Home/Home";
+import Home from './pages/Home/Home';
+import CriarConta from './pages/CriarConta/CriarConta';
 import Login from './pages/Login/Login';
+import EsqueciSenha from './pages/EsqueciSenha/EsqueciSenha';
+import CadastrarPet from './pages/CadastrarPet/CadastrarPet';
+import Adocao from './pages/Adocao/Adocao'
+import MeuPerfil from "./pages/MeuPerfil/MeuPerfil";
+import Filtro from './pages/Filtro/Filtro'
+
 
 function App()  {
 
