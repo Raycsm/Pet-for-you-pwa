@@ -8,6 +8,7 @@ import TabletBreakpoint from "./Components/responsive_utilities/tablet_breakpoin
 import StylesGlobal from "./styles/StylesGlobal/StylesGlobal";
 import { useTheme } from './styles/Theme/UseTheme';
 
+<<<<<<< HEAD
 import Home from './pages/Home/Home';
 import CriarConta from './pages/CriarConta/CriarConta';
 import Login from './pages/Login/Login';
@@ -17,6 +18,16 @@ import Adocao from './pages/Adocao/Adocao'
 import MeuPerfil from "./pages/MeuPerfil/MeuPerfil";
 import Filtro from './pages/Filtro/Filtro'
 
+=======
+import Adocao from "./pages/Adocao/Adocao";
+import CadastrarPet from "./pages/CadastrarPet/CadastrarPet";
+import CriarConta from "./pages/CriarConta/CriarConta";
+import EsqueciSenha from "./pages/EsqueciSenha/EsqueciSenha";
+import Filtro from "./pages/Filtro/Filtro";
+import Home from "./pages/Home/Home";
+import Login from './pages/Login/Login';
+import MeuPerfil from "./pages/MeuPerfil/MeuPerfil";
+>>>>>>> d1b9b723add4816e13b9fc11c0c80497f4b70d09
 
 function App()  {
 
