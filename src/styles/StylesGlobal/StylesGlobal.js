@@ -13,10 +13,6 @@ export const StylesGlobal = createGlobalStyle`
   font-family: ${({ theme }) => theme.font};
   };
 
-  a {
-    color: ${({ theme }) => theme.colors.link.text};
-  };
-
   .titulo{
     text-align: center;
     font-size:22px;
@@ -38,14 +34,6 @@ export const StylesGlobal = createGlobalStyle`
         font-size: 14px;
         border: none;    
   };
-
-  .select:focus{
-    outline-color: #DB652F ; 
-  }
-
-  .input:focus{
-    outline-color:  #DB652F; 
-  }
 
 `;
 

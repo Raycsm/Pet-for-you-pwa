@@ -1,14 +1,23 @@
 .input{
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
 }
+
+.input:focus{
+    outline-color:  #DB652F; 
+  }
 
 .botao{
     margin-top: 30px; 
     margin-bottom: 30px; 
 }
 
+.link{
+    color: #DB652F;
+}
+
 .senha_link{
     margin-left: 190px;
+    color: #DB652F;
 }
 
 p{

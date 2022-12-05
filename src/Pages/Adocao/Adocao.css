@@ -8,10 +8,14 @@
 .botao-adocao{
     margin-top: 10px;
     margin-bottom: 20px;
-    margin-right: 20px;
-    width: 170px;
+    width: 210px;
     height: 140px; 
-    background-color: #DB652F;     
+    border: none;
+    background-color: #DB652F;
+    cursor: pointer;   
+    color: #fff;  
+    border-radius: 20px;
+    font-weight: bold;
 }
 
 .botao-adocao:hover{
@@ -20,7 +24,6 @@
 
 .icon-dog{
     margin-bottom: 5px;
-
 }
 
 

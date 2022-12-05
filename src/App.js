@@ -18,7 +18,7 @@ import MeuPerfil from "./pages/MeuPerfil/MeuPerfil";
 import Filtro from './pages/Filtro/Filtro'
 
 
-function App()  {
+function App(){
 
   const {theme, themeLoaded} = useTheme();
   const [selectedTheme, setSelectedTheme] = useState(theme);
@@ -26,7 +26,6 @@ function App()  {
   useEffect(() => {
     setSelectedTheme(theme);
    }, [theme, themeLoaded]);
-
 
     return (
       <>
@@ -38,17 +37,17 @@ function App()  {
           <TabletBreakpoint/>
           <PhoneBreakpoint/>
           <Router>
-            <Routes>
-              <Route path="/" exact element={<Login />} />
-              <Route path="/Esqueciasenha" exact element={<EsqueciSenha />} />
-              <Route path="/Criarconta" exact element={<CriarConta />} />
-              <Route path="/Home" exact element={<Home />} />
-              <Route path="/Adocao" exact element={<Adocao />} />
-              <Route path="/Meuperfil" exact element={<MeuPerfil />} />
-              <Route path="/Filtro" exact element={<Filtro />} />
-              <Route path="/Criarconta" exact element={<CriarConta />} />
-              <Route path="/Cadastrarpet" exact element={<CadastrarPet />} />
-            </Routes>
+              <Routes>
+                <Route path="/" exact element={<Login />} />
+                <Route path="/Esqueciasenha" exact element={<EsqueciSenha />} />
+                <Route path="/Criarconta" exact element={<CriarConta />} />
+                <Route path="/Home" exact element={<Home />} />
+                <Route path="/Adocao" exact element={<Adocao />} />
+                <Route path="/Meuperfil" exact element={<MeuPerfil />} />
+                <Route path="/Filtro" exact element={<Filtro />} />
+                <Route path="/Criarconta" exact element={<CriarConta />} />
+                <Route path="/Cadastrarpet" exact element={<CadastrarPet />} />
+              </Routes>
         </Router> 
         </div> 
       </ThemeProvider>

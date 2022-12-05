@@ -16,10 +16,10 @@
 .text_s{
     font-size: 14px;
     margin-bottom: 30px;
-    text-align: center;
-    margin-left: 50px;     
+    text-align: center; 
 }
 
 .link-login{
     text-align: center;
+    color: #DB652F;
 }

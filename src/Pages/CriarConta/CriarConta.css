@@ -2,6 +2,10 @@
     margin-bottom: 20px;
 }
 
+.input-conta:focus{
+    outline-color: #DB652F;
+}
+
 .botao-criar-conta{
     margin-top: 30px; 
     margin-bottom: 30px;
@@ -29,6 +33,10 @@
     padding: 15px;   
     margin-bottom: 20px; 
 }
+
+.tipo-pessoa:focus{
+    outline-color:  #DB652F; 
+  }
 
 option:checked { 
     background-color: #DB652F;

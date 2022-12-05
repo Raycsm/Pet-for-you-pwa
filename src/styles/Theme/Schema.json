@@ -8,8 +8,7 @@
           "body": "#FFFFFF",
           "text": "#434242",
           "button": {
-            "text": "#FFFFFF",
-            "background": "#DB652F"
+            "text": "#FFFFFF"
           },
           "link": {
             "text": "#db652f",

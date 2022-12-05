@@ -12,6 +12,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Switch from '@material-ui/core/Switch';
 import "./CadastrarPet.css"
 
+
 const ColorSwitch = withStyles({
     switchBase: {
       color: '#DB652F',
@@ -263,7 +264,6 @@ export default function CadastrarPet() {
             </div>
         
         </form>
-
       </main>
     </>
   );

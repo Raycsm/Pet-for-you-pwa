@@ -1,4 +1,4 @@
-button {
+#buttons {
     border: none;
     width: 310px;
     height: 50px;
@@ -12,7 +12,7 @@ button {
     /* justify-content: center; */
   }
 
-button:hover{
+#buttons:hover{
     background-color: #ba4a16;
   }
   
