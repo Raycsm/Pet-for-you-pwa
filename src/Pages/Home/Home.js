@@ -6,6 +6,7 @@ import FilterListIcon from '@material-ui/icons/FilterList';
 import { useNavigate } from 'react-router-dom';
 import DrawerMenu from "../../Components/DrawerMenu/DrawerMenu";
 import Carrousel from "../../Components/Carrousel/Carrousel"
+import PetsCard from "../../Components/Cards/PetsCard/PetsCard"
 import "./Home.css";
 
 export default function Home() {
@@ -30,6 +31,9 @@ export default function Home() {
       </div>
       <div>
         <h3 className="titulo-home">Pets perto de você</h3>
+      </div>
+      <div>
+            <PetsCard/>
       </div>
       <div>
         <BottomMenu />

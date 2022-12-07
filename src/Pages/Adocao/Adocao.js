@@ -30,7 +30,7 @@ export default function Adocao() {
                 </button>
             </div>
             <div>
-                <button className="botao-adocao" >
+                <button className="botao-adocao" onClick={() => navigate("/MeusPets")} >
                 <FaPaw color='#fff' size={45} className='icon-dog'/>
                 <div></div> 
                   Meus pets

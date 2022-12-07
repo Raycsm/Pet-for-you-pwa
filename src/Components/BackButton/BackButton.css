@@ -1,9 +1,14 @@
+.container-back{
+  display: flex;
+  justify-content: center;
+  margin-right: 380px;
+  margin-top: 20px;
+}
+
+
 .back-button {
     color: #343434;
     cursor: pointer;
-    margin-top: 20px;
-    margin-left: 20px;
-    
   }
 
   

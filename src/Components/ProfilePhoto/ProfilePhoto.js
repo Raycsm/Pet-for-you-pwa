@@ -3,7 +3,6 @@ import React from "react"
 import user from '../../assets/user.png'
 import IconButton from '@mui/material/IconButton';
 import PhotoCamera from '@mui/icons-material/PhotoCamera';
-import Stack from '@mui/material/Stack';
 import './ProfilePhoto.css'
 
 
@@ -34,17 +33,13 @@ export default function ProfilePhoto(){
         <div>
             <div>
                 <img src={user} alt="avatar" className="avatar" />
-                <Stack>
+                <div style={{textAlign:'center'}}>
                     <IconButton alignItems="center" style={{color:'#DB652F'}} aria-label="upload picture" component="label">
-                        <input hidden accept="image/*" type="file" />
-                        <div>
-                            
-                        </div>
+                        <input style={{display:'none'}} hidden accept="image/*" type="file" />
                         <PhotoCamera />
                         <p style={{marginLeft:5, marginTop:30, color:'#DB652F'}}>Adicionar foto</p>
-                    </IconButton>
-                    
-                </Stack>
+                    </IconButton> 
+                </div>
             </div>
         </div>
     )

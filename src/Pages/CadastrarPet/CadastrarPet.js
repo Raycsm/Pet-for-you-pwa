@@ -164,15 +164,15 @@ export default function CadastrarPet() {
               required />
             </div>
             <div className="container-pet">
-                <div className="box-pet-sexo">
-                    <div className="vacinado">
+                <div className="controll">
+                    <div style={{marginRight:60}}>
                         <FormControlLabel
                         control={<ColorSwitch checked={checkedvacinado} 
                         onChange={toggleCheckedVacinado} />}
                         label="Vacinado" 
                         required/>
                     </div>
-                    <div>
+                    <div className="castrado">
                         <FormControlLabel
                         control={<ColorSwitch checked={checkedcastrado} 
                         onChange={toggleCheckedCastrado} />}
@@ -181,7 +181,7 @@ export default function CadastrarPet() {
                     </div>
                 </div>
         
-                <div className="radio-group-sexo">
+                <div className="radio">
                     <FormControl>
                         <RadioGroup 
                         aria-label="sexo" 

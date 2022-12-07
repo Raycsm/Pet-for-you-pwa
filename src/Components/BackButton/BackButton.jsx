@@ -9,11 +9,13 @@ const BackButton = ({props}) => {
     const navigate = useNavigate();
 
     return(
-            <IconButton>
-                <ArrowBackIcon 
-                className="back-button"  
-                onClick={() => navigate(-1)}/>
-            </IconButton>
+            <div className="container-back">
+                <IconButton>
+                    <ArrowBackIcon 
+                    className="back-button"  
+                    onClick={() => navigate(-1)}/>
+                </IconButton>
+            </div>
     )
 }
 

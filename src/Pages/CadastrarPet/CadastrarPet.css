@@ -7,17 +7,9 @@
 }
 
 .container-pet{
-    display: flex;
-    margin-left: 90px;
     margin-bottom: 10px;
-}
-
-.vacinado{
-    margin-right: 60px;
-}
-
-.radio-group-sexo{
     display: flex;
+    justify-content: center;   
 }
 
 .input-text-area{

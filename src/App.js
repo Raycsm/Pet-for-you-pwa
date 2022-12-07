@@ -16,6 +16,7 @@ import CadastrarPet from './pages/CadastrarPet/CadastrarPet';
 import Adocao from './pages/Adocao/Adocao'
 import MeuPerfil from "./pages/MeuPerfil/MeuPerfil";
 import Filtro from './pages/Filtro/Filtro'
+import MeuPet from "./pages/MeuPet/MeuPet";
 
 
 function App(){
@@ -47,6 +48,7 @@ function App(){
                 <Route path="/Filtro" exact element={<Filtro />} />
                 <Route path="/Criarconta" exact element={<CriarConta />} />
                 <Route path="/Cadastrarpet" exact element={<CadastrarPet />} />
+                <Route path="/Meuspets" exact element={<MeuPet />} />
               </Routes>
         </Router> 
         </div> 
