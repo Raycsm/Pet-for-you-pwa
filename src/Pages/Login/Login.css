@@ -4,11 +4,17 @@
 
 .input:focus{
     outline-color:  #DB652F; 
-  }
+}
 
-.botao{
-    margin-top: 30px; 
-    margin-bottom: 30px; 
+.logo-login{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.botao-login{
+    padding-bottom: 20px;
 }
 
 .link{
@@ -16,8 +22,14 @@
 }
 
 .senha_link{
-    margin-left: 190px;
+    display: block;
+    margin: 0 auto;
+    
     color: #DB652F;
+}
+
+.text{
+    margin-top: 30px;
 }
 
 p{

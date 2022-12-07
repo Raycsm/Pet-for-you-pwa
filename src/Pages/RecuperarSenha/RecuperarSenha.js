@@ -3,24 +3,25 @@ import React from "react";
 import Logo from "../../Components/Logo/Logo";
 import Pets from "../../Components/Pets/Pets";
 import Links from "../../Components/Link/Link";
-import Button from "../../Components/Button/Button"
+import ButtonMain from "../../Components/ButtonMain/ButtonMain";
+import BackButton from "../../Components/BackButton/BackButton";
 import Input from "../../Components/Input/Input"
-import "./EsqueciSenha.css"
+import "./RecuperarSenha.css"
 
-const EsqueciSenha = () => {
+const RecuperarSenha = () => {
 
   return (
 
     <>
       <main>
-       
+            <BackButton/>
         <div>
-            <Logo className="logo" alt='logo' width={150} height={100} />
+            <Logo alt='logo-senha' className="logo-senha" width={150} height={100} />
         </div>
 
         <form>
           <div>
-            <h1 className="titulo">Recuperar Senha</h1>
+            <h1 className="titulo-senha">Recuperar Senha</h1>
           </div>
           
           <div>
@@ -28,9 +29,9 @@ const EsqueciSenha = () => {
           </div>
           
           <div>
-            <Button className="botao_s" rel="botao">
+            <ButtonMain className="botao_s" rel="botao">
               Recuperar
-            </Button>
+            </ButtonMain>
           </div>
           
           <div>
@@ -38,8 +39,8 @@ const EsqueciSenha = () => {
           </div>  
         </form>
       
-        <div>
-          <Pets className="pets_s" alt='pets' width={320} height={180} />
+        <div style={{marginTop:90}}>
+          <Pets className="pets" alt='pets' width={320} height={180} />
         </div>
 
       </main>
@@ -47,4 +48,4 @@ const EsqueciSenha = () => {
   );
 }
 
-export default EsqueciSenha;
+export default RecuperarSenha;

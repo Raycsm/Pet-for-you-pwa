@@ -2,6 +2,8 @@
 import React from "react";
 import {FaCat, FaDog, FaPaw} from 'react-icons/fa'
 import { useNavigate } from 'react-router-dom';
+import BottomMenu from "../../Components/BottomMenu/BottomMenu";
+import BackButton from "../../Components/BackButton/BackButton";
 import "../Adocao/Adocao.css"
 
 export default function Adocao() {
@@ -12,7 +14,7 @@ export default function Adocao() {
     <>
       <main>
         <div>
-            <p></p>
+            <BackButton className="back-adocao"/>
         </div>
 
         <div>
@@ -42,6 +44,9 @@ export default function Adocao() {
                 </button>
             </div>
         </div>
+        <div>
+          <BottomMenu />
+      </div>
       
       </main>
     </>

@@ -2,7 +2,8 @@
 import React, {useState} from "react";
 import Logo from "../../Components/Logo/Logo";
 import Links from "../../Components/Link/Link";
-import Button from "../../Components/Button/Button"
+import ButtonMain from "../../Components/ButtonMain/ButtonMain";
+import BackButton from '../../Components/BackButton/BackButton';
 import Input from "../../Components/Input/Input";
 import SelectEstado from "../../Components/Selects/SelectEstado/SelectEstado";
 import ProfilePhoto from "../../Components/ProfilePhoto/ProfilePhoto";
@@ -28,11 +29,12 @@ export default function CriarConta() {
   return (
     <>
       <main>
-       
         <div>
-            <Logo className="logo" alt='logo' width={150} height={100} />
+          <BackButton/>
         </div>
-
+        <div>
+            <Logo className="logo-conta" alt='logo' width={150} height={100} />
+        </div>
         <form>
             <div>
               <ProfilePhoto />
@@ -161,7 +163,7 @@ export default function CriarConta() {
               onChange={e => setEstado(e.target.value)} />
             </div>
 
-            <div>
+            <div style={{marginBottom:40}}>
               <Input 
               className="input-conta" 
               name="cidade" 
@@ -172,12 +174,9 @@ export default function CriarConta() {
             </div>
           
             <div>
-              <Button 
-              className="botao-criar-conta"
-              
-              >
-                Criar Conta
-              </Button>
+              <ButtonMain className="botao-criar-conta"
+              >Criar Conta
+              </ButtonMain>
             </div>
             
             <div>

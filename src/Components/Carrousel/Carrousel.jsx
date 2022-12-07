@@ -4,6 +4,7 @@ import Box from '@mui/material/Box';
 import MobileStepper from '@mui/material/MobileStepper';
 import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
+import './Carrousel.css'
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
@@ -28,7 +29,7 @@ function Carrousel() {
   };
 
   return (
-    <Box sx={{maxWidth:650, marginTop:3, textAlign:'center'}}>
+    <Box sx={{maxWidth:550, marginTop:3, textAlign:'center'}} className="box">
       <AutoPlaySwipeableViews
         axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
         index={activeStep}

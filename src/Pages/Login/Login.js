@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../../Components/Button/Button";
+import ButtonMain from "../../Components/ButtonMain/ButtonMain";
 import Input from "../../Components/Input/Input";
 import Links from "../../Components/Link/Link";
 import Logo from "../../Components/Logo/Logo";
@@ -14,7 +14,7 @@ export default function Login() {
       <main>
        
         <div>
-            <Logo className="logo" alt='logo' width={150} height={100} />
+            <Logo className="logo-login" alt='logo' width={150} height={100} />
         </div>
 
         <form>
@@ -27,14 +27,14 @@ export default function Login() {
             <Input className="input" name="senha" placeholder="Senha" type="password"/>
           </div>
           
-          <div>
-            <Links className="senha_link" to="/Esqueciasenha">Esqueci a senha</Links>
+          <div style={{marginLeft:190}}>
+            <p className="text"><Links className="link" to="/Recuperarsenha">Esqueci a senha</Links></p>
           </div>
           
-          <div className="botao">
-            <Button rel="botao">
+          <div>
+            <ButtonMain rel="botao" className="botao-login">
               Entrar
-            </Button>
+            </ButtonMain>
           </div>
           
           <div>

@@ -1,10 +1,10 @@
 import React from "react";
-import '../Button/Button.css'
+import '../ButtonMain/ButtonMain.css'
 
-const Button = ({children, onClick, className}) => {
+const ButtonMain = ({children, onClick, className}) => {
     return(
         <button 
-        id="buttons"
+        id="button-main"
         onClick={onClick} 
         className={className}
         >{children}
@@ -13,4 +13,4 @@ const Button = ({children, onClick, className}) => {
 }
 
 
-export default Button;
+export default ButtonMain;

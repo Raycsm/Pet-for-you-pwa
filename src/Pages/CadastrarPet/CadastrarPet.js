@@ -1,15 +1,17 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, {useState} from "react";
-import Button from "../../Components/Button/Button"
+import ButtonMain from "../../Components/ButtonMain/ButtonMain";
 import Input from "../../Components/Input/Input";
 import SelectEstado from "../../Components/Selects/SelectEstado/SelectEstado";
 import ProfilePhoto from "../../Components/ProfilePhoto/ProfilePhoto";
+import BackButton from '../../Components/BackButton/BackButton';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Radio from '@material-ui/core/Radio';
 import RadioGroup from '@material-ui/core/RadioGroup';
 import FormControl from '@material-ui/core/FormControl';
 import { withStyles } from '@material-ui/core/styles';
 import Switch from '@material-ui/core/Switch';
+import BottomMenu from "../../Components/BottomMenu/BottomMenu";
 import "./CadastrarPet.css"
 
 
@@ -76,7 +78,7 @@ export default function CadastrarPet() {
       <main>
         <div>
             <div>
-                <p></p>
+                <BackButton/>
             </div>
             <h1 className="titulo-cadastrar-pet">Cadastrar Pet</h1>
         </div>
@@ -255,15 +257,18 @@ export default function CadastrarPet() {
             </div>
           
             <div>
-              <Button 
+              <ButtonMain 
               className="botao-cadastrar-pet"
               
               >
                 Cadastrar Pet
-              </Button>
+              </ButtonMain>
             </div>
         
         </form>
+        <div>
+            <BottomMenu />
+      </div>
       </main>
     </>
   );

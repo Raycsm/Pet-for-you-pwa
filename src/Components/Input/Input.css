@@ -1,11 +1,14 @@
-input {
-    width: 310px;
-    height: 50px;
+#input {
+    width: 270px;
+    height: 10px;
     border-radius: 10px;
     background-color: #E7E6E5;
     font-size: 14px;
     border: none;
-    padding: 20px;    
+    padding: 20px;   
+    display: block;
+    margin: 0 auto; 
+    margin-bottom: 20px;
 };
 
 

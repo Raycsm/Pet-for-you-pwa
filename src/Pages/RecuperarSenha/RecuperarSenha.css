@@ -1,0 +1,35 @@
+.input_s{
+    outline-color:  #DB652F; 
+}
+
+.botao_s{
+    margin-top: 20px; 
+    margin-bottom: 30px;     
+}
+
+.titulo-senha{
+    text-align: center;
+    font-size:22px;
+    font-weight: bolder; 
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.logo-senha{
+    margin-bottom: 30px;
+}
+
+.pets_s{
+    margin-top: 40px;
+}
+
+.text_s{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px; 
+}
+
+.link-login{
+    text-align: center;
+    color: #DB652F;
+}

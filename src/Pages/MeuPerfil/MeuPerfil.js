@@ -1,10 +1,13 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, {useState} from "react";
-import Button from "../../Components/Button/Button"
+import ButtonMain from "../../Components/ButtonMain/ButtonMain";
+import Buttons from "../../Components/Buttons/Buttons";
 import Input from "../../Components/Input/Input";
 import InputDisabled from "../../Components/Input/InputDisabled/InputDisabled"
 import SelectEstado from "../../Components/Selects/SelectEstado/SelectEstado";
 import ProfilePhoto from "../../Components/ProfilePhoto/ProfilePhoto";
+import BottomMenu from "../../Components/BottomMenu/BottomMenu";
+import BackButton from "../../Components/BackButton/BackButton";
 import "./MeuPerfil.css"
 
 export default function MeuPerfil() {
@@ -24,7 +27,7 @@ export default function MeuPerfil() {
     <>
       <main>
         <div>
-            <p></p>
+              <BackButton/>
         </div>
 
         <div>
@@ -124,21 +127,24 @@ export default function MeuPerfil() {
               onChangeText={setCidade}/>
             </div>
           
-            <div>
-              <Button 
+            <div style={{marginTop:40}}>
+              <ButtonMain 
               className="botao-meu-perfil"
               >
                 Salvar
-              </Button>
+              </ButtonMain>
             </div>
-            <div>
-              <Button 
+            <div style={{marginTop:40}}>
+              <Buttons 
               className="botao-excluir-conta"
               >
                 Excluir Conta
-              </Button>
+              </Buttons>
             </div>
         </form>
+        <div>
+          <BottomMenu />
+      </div>
       </main>
     </>
   );

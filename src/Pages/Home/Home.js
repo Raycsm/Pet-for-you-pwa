@@ -1,6 +1,6 @@
 import React from "react";
 import BottomMenu from "../../Components/BottomMenu/BottomMenu";
-import Logo from "../../Components/Logo/Logo";
+import logo from "../../assets/logo.png"
 import IconButton from '@material-ui/core/IconButton';
 import FilterListIcon from '@material-ui/icons/FilterList';
 import { useNavigate } from 'react-router-dom';
@@ -15,11 +15,11 @@ export default function Home() {
   return (
     <main>
       <div className='container-menu'>
-        <div>
+        <div className='drawer-menu'>
           <DrawerMenu />
         </div>
         <div>
-          <Logo className="logo-home" alt='logo' width={125} height={80} />
+          <img src={logo} className="logo-home" alt='logo' width={125} height={80} />
         </div>
         <div>
         <IconButton><FilterListIcon fontSize="large" onClick={() => navigate("/Filtro")}/></IconButton>
@@ -27,6 +27,9 @@ export default function Home() {
       </div>
       <div>
         <Carrousel />
+      </div>
+      <div>
+        <h3 className="titulo-home">Pets perto de você</h3>
       </div>
       <div>
         <BottomMenu />

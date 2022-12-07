@@ -13,27 +13,14 @@
     margin-bottom: 40px;
 }
 
-.botao-meu-perfil{
-    margin-top: 30px; 
-    margin-bottom: 30px;
+.botao-excluir-conta{ 
     width: 310px;
     height: 50px; 
-    background-color: #DB652F;     
-}
-
-.botao-meu-perfil:hover{
-    background-color: #ba4a16;
-  }
-
-.botao-excluir-conta{
-    margin-top: 20px; 
-    width: 310px;
-    height: 50px; 
-    background-color: #850c0a;     
+    background-color: #e21613;   
 }
 
 .botao-excluir-conta:hover{
-    background-color: #540d09;
+    background-color: #b82d26;
   }
 
 .text-meu-perfil{

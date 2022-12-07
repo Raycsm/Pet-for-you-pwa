@@ -1,7 +1,11 @@
 import React from "react"
 //import { useAuth, upload } from "../../firebase";
 import user from '../../assets/user.png'
+import IconButton from '@mui/material/IconButton';
+import PhotoCamera from '@mui/icons-material/PhotoCamera';
+import Stack from '@mui/material/Stack';
 import './ProfilePhoto.css'
+
 
 export default function ProfilePhoto(){
 
@@ -30,12 +34,17 @@ export default function ProfilePhoto(){
         <div>
             <div>
                 <img src={user} alt="avatar" className="avatar" />
-            </div>
-            <div>
-                <input type="file"  />
-            </div>
-            <div>
-                <button className="botao-photo">Trocar foto</button>
+                <Stack>
+                    <IconButton alignItems="center" style={{color:'#DB652F'}} aria-label="upload picture" component="label">
+                        <input hidden accept="image/*" type="file" />
+                        <div>
+                            
+                        </div>
+                        <PhotoCamera />
+                        <p style={{marginLeft:5, marginTop:30, color:'#DB652F'}}>Adicionar foto</p>
+                    </IconButton>
+                    
+                </Stack>
             </div>
         </div>
     )

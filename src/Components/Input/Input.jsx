@@ -4,6 +4,7 @@ import '../Input/Input.css'
 const Input = ({className, name, placeholder, type, required}) => {
     return(
         <input 
+        id="input"
         className={className} 
         name={name} 
         placeholder={placeholder}
