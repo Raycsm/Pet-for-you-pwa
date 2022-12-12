@@ -1,9 +1,9 @@
 import React from "react";
 import { FaCat, FaDog, FaPaw } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
-import BackButton from "../../componentes/BackButton/BackButton";
-import BottomMenu from "../../componentes/BottomMenu/BottomMenu";
-import "../Adocao/Adocao.css";
+import BackButton from "../../components/BackButton/BackButton";
+import BottomMenu from "../../components/BottomMenu/BottomMenu";
+import "./index.css";
 
 export default function Adocao() {
 

@@ -1,7 +1,7 @@
 import React from "react";
-import BackButton from "../../componentes/BackButton/BackButton";
-import BottomMenu from "../../componentes/BottomMenu/BottomMenu";
-import './Filtro.css';
+import BackButton from "../../components/BackButton/BackButton";
+import BottomMenu from "../../components/BottomMenu/BottomMenu";
+import './index.css';
 
 export default function Filtro() {
 

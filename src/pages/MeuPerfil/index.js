@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import BackButton from "../../componentes/BackButton/BackButton";
-import BottomMenu from "../../componentes/BottomMenu/BottomMenu";
-import ButtonMain from "../../componentes/ButtonMain/ButtonMain";
-import Buttons from "../../componentes/Buttons/Buttons";
-import Input from "../../componentes/Input/Input";
-import InputDisabled from "../../componentes/Input/InputDisabled/InputDisabled";
-import ProfilePhoto from "../../componentes/ProfilePhoto/ProfilePhoto";
-import SelectEstado from "../../componentes/Selects/SelectEstado/SelectEstado";
-import "./MeuPerfil.css";
+import BackButton from "../../components/BackButton/BackButton";
+import BottomMenu from "../../components/BottomMenu/BottomMenu";
+import ButtonMain from "../../components/ButtonMain/ButtonMain";
+import Buttons from "../../components/Buttons/Buttons";
+import Input from "../../components/Input/Input";
+import InputDisabled from "../../components/Input/InputDisabled/InputDisabled";
+import ProfilePhoto from "../../components/ProfilePhoto/ProfilePhoto";
+import SelectEstado from "../../components/Selects/SelectEstado/SelectEstado";
+import "./index.css";
 
 export default function MeuPerfil() {
 

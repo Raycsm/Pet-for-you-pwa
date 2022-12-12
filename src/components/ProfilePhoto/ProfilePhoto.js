@@ -2,7 +2,7 @@ import React from "react";
 //import { useAuth, upload } from "../../firebase";
 import PhotoCamera from '@mui/icons-material/PhotoCamera';
 import IconButton from '@mui/material/IconButton';
-import user from '../../ativos/user.png';
+import user from '../../assets/user.png';
 import './ProfilePhoto.css';
 
 

@@ -1,8 +1,8 @@
 import React from "react";
-import BackButton from '../../componentes/BackButton/BackButton';
-import BottomMenu from "../../componentes/BottomMenu/BottomMenu";
-import MeuPetCard from "../../componentes/Cards/MeuPetCard/MeuPetCard";
-import "./MeuPet.css";
+import BackButton from '../../components/BackButton/BackButton';
+import BottomMenu from "../../components/BottomMenu/BottomMenu";
+import MeuPetCard from "../../components/Cards/MeuPetCard/MeuPetCard";
+import "./index.css";
 
 
 export default function MeuPet() {

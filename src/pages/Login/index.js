@@ -1,10 +1,10 @@
 import React from "react";
-import ButtonMain from "../../componentes/ButtonMain/ButtonMain";
-import Input from "../../componentes/Input/Input";
-import Links from "../../componentes/Link/Link";
-import Logo from "../../componentes/Logo/Logo";
-import Pets from "../../componentes/Pets/Pets";
-import "./Login.css";
+import ButtonMain from "../../components/ButtonMain/ButtonMain";
+import Input from "../../components/Input/Input";
+import Links from "../../components/Link/Link";
+import Logo from "../../components/Logo/Logo";
+import Pets from "../../components/Pets/Pets";
+import "./index.css";
 
 export default function Login() {
 

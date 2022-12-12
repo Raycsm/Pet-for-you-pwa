@@ -5,14 +5,13 @@ import RadioGroup from '@material-ui/core/RadioGroup';
 import { withStyles } from '@material-ui/core/styles';
 import Switch from '@material-ui/core/Switch';
 import React, { useState } from "react";
-import BackButton from '../../componentes/BackButton/BackButton';
-import BottomMenu from "../../componentes/BottomMenu/BottomMenu";
-import ButtonMain from "../../componentes/ButtonMain/ButtonMain";
-import Input from "../../componentes/Input/Input";
-import ProfilePhoto from "../../componentes/ProfilePhoto/ProfilePhoto";
-import SelectEstado from "../../componentes/Selects/SelectEstado/SelectEstado";
-import "./CadastrarPet.css";
-
+import BackButton from '../../components/BackButton/BackButton';
+import BottomMenu from "../../components/BottomMenu/BottomMenu";
+import ButtonMain from "../../components/ButtonMain/ButtonMain";
+import Input from "../../components/Input/Input";
+import ProfilePhoto from "../../components/ProfilePhoto/ProfilePhoto";
+import SelectEstado from "../../components/Selects/SelectEstado/SelectEstado";
+import "./index.css";
 
 const ColorSwitch = withStyles({
     switchBase: {
