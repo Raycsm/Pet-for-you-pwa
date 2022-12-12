@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "../../assets/logo.png"
-import "./Logo.css"
+import logo from "../../ativos/logo.png";
+import "./Logo.css";
 
 const Logo = ({alt, width, height, className}) => {
     return(

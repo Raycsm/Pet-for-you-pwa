@@ -1,14 +1,13 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import React, {useState} from "react";
-import ButtonMain from "../../Components/ButtonMain/ButtonMain";
-import Buttons from "../../Components/Buttons/Buttons";
-import Input from "../../Components/Input/Input";
-import InputDisabled from "../../Components/Input/InputDisabled/InputDisabled"
-import SelectEstado from "../../Components/Selects/SelectEstado/SelectEstado";
-import ProfilePhoto from "../../Components/ProfilePhoto/ProfilePhoto";
-import BottomMenu from "../../Components/BottomMenu/BottomMenu";
-import BackButton from "../../Components/BackButton/BackButton";
-import "./MeuPerfil.css"
+import React, { useState } from "react";
+import BackButton from "../../componentes/BackButton/BackButton";
+import BottomMenu from "../../componentes/BottomMenu/BottomMenu";
+import ButtonMain from "../../componentes/ButtonMain/ButtonMain";
+import Buttons from "../../componentes/Buttons/Buttons";
+import Input from "../../componentes/Input/Input";
+import InputDisabled from "../../componentes/Input/InputDisabled/InputDisabled";
+import ProfilePhoto from "../../componentes/ProfilePhoto/ProfilePhoto";
+import SelectEstado from "../../componentes/Selects/SelectEstado/SelectEstado";
+import "./MeuPerfil.css";
 
 export default function MeuPerfil() {
 

@@ -1,10 +1,9 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import {FaCat, FaDog, FaPaw} from 'react-icons/fa'
+import { FaCat, FaDog, FaPaw } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
-import BottomMenu from "../../Components/BottomMenu/BottomMenu";
-import BackButton from "../../Components/BackButton/BackButton";
-import "../Adocao/Adocao.css"
+import BackButton from "../../componentes/BackButton/BackButton";
+import BottomMenu from "../../componentes/BottomMenu/BottomMenu";
+import "../Adocao/Adocao.css";
 
 export default function Adocao() {
 

@@ -1,13 +1,12 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import React, {useState} from "react";
-import Logo from "../../Components/Logo/Logo";
-import Links from "../../Components/Link/Link";
-import ButtonMain from "../../Components/ButtonMain/ButtonMain";
-import BackButton from '../../Components/BackButton/BackButton';
-import Input from "../../Components/Input/Input";
-import SelectEstado from "../../Components/Selects/SelectEstado/SelectEstado";
-import ProfilePhoto from "../../Components/ProfilePhoto/ProfilePhoto";
-import "./CriarConta.css"
+import React, { useState } from "react";
+import BackButton from '../../componentes/BackButton/BackButton';
+import ButtonMain from "../../componentes/ButtonMain/ButtonMain";
+import Input from "../../componentes/Input/Input";
+import Links from "../../componentes/Link/Link";
+import Logo from "../../componentes/Logo/Logo";
+import ProfilePhoto from "../../componentes/ProfilePhoto/ProfilePhoto";
+import SelectEstado from "../../componentes/Selects/SelectEstado/SelectEstado";
+import "./CriarConta.css";
 
 export default function CriarConta() {
 

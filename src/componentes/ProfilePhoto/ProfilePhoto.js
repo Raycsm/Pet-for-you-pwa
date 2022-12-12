@@ -1,9 +1,9 @@
-import React from "react"
+import React from "react";
 //import { useAuth, upload } from "../../firebase";
-import user from '../../assets/user.png'
-import IconButton from '@mui/material/IconButton';
 import PhotoCamera from '@mui/icons-material/PhotoCamera';
-import './ProfilePhoto.css'
+import IconButton from '@mui/material/IconButton';
+import user from '../../ativos/user.png';
+import './ProfilePhoto.css';
 
 
 export default function ProfilePhoto(){

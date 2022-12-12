@@ -1,12 +1,11 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import Logo from "../../Components/Logo/Logo";
-import Pets from "../../Components/Pets/Pets";
-import Links from "../../Components/Link/Link";
-import ButtonMain from "../../Components/ButtonMain/ButtonMain";
-import BackButton from "../../Components/BackButton/BackButton";
-import Input from "../../Components/Input/Input"
-import "./RecuperarSenha.css"
+import BackButton from "../../componentes/BackButton/BackButton";
+import ButtonMain from "../../componentes/ButtonMain/ButtonMain";
+import Input from "../../componentes/Input/Input";
+import Links from "../../componentes/Link/Link";
+import Logo from "../../componentes/Logo/Logo";
+import Pets from "../../componentes/Pets/Pets";
+import "./RecuperarSenha.css";
 
 const RecuperarSenha = () => {
 

@@ -2,21 +2,21 @@ import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 
-import DesktopBreakpoint from "./Components/responsive_utilities/desktop_breakpoint";
-import PhoneBreakpoint from "./Components/responsive_utilities/phone_breakpoint";
-import TabletBreakpoint from "./Components/responsive_utilities/tablet_breakpoint";
-import StylesGlobal from "./styles/StylesGlobal/StylesGlobal";
-import { useTheme } from './styles/Theme/UseTheme';
+import DesktopBreakpoint from "./componentes/responsive_utilities/desktop_breakpoint";
+import PhoneBreakpoint from "./componentes/responsive_utilities/phone_breakpoint";
+import TabletBreakpoint from "./componentes/responsive_utilities/tablet_breakpoint";
+import StylesGlobal from "./estilos/StylesGlobal/StylesGlobal";
+import { useTheme } from './estilos/Theme/UseTheme';
 
-import Home from './pages/Home/Home';
-import CriarConta from './pages/CriarConta/CriarConta';
-import Login from './pages/Login/Login';
-import RecuperarSenha from "./pages/RecuperarSenha/RecuperarSenha";
-import CadastrarPet from './pages/CadastrarPet/CadastrarPet';
-import Adocao from './pages/Adocao/Adocao'
-import MeuPerfil from "./pages/MeuPerfil/MeuPerfil";
-import Filtro from './pages/Filtro/Filtro'
-import MeuPet from "./pages/MeuPet/MeuPet";
+import Adocao from './paginas/Adocao/Adocao';
+import CadastrarPet from './paginas/CadastrarPet/CadastrarPet';
+import CriarConta from './paginas/CriarConta/CriarConta';
+import Filtro from './paginas/Filtro/Filtro';
+import Home from './paginas/Home/Home';
+import Login from './paginas/Login/Login';
+import MeuPerfil from "./paginas/MeuPerfil/MeuPerfil";
+import MeuPet from "./paginas/MeuPet/MeuPet";
+import RecuperarSenha from "./paginas/RecuperarSenha/RecuperarSenha";
 
 
 function App(){

@@ -1,18 +1,17 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import React, {useState} from "react";
-import ButtonMain from "../../Components/ButtonMain/ButtonMain";
-import Input from "../../Components/Input/Input";
-import SelectEstado from "../../Components/Selects/SelectEstado/SelectEstado";
-import ProfilePhoto from "../../Components/ProfilePhoto/ProfilePhoto";
-import BackButton from '../../Components/BackButton/BackButton';
+import FormControl from '@material-ui/core/FormControl';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Radio from '@material-ui/core/Radio';
 import RadioGroup from '@material-ui/core/RadioGroup';
-import FormControl from '@material-ui/core/FormControl';
 import { withStyles } from '@material-ui/core/styles';
 import Switch from '@material-ui/core/Switch';
-import BottomMenu from "../../Components/BottomMenu/BottomMenu";
-import "./CadastrarPet.css"
+import React, { useState } from "react";
+import BackButton from '../../componentes/BackButton/BackButton';
+import BottomMenu from "../../componentes/BottomMenu/BottomMenu";
+import ButtonMain from "../../componentes/ButtonMain/ButtonMain";
+import Input from "../../componentes/Input/Input";
+import ProfilePhoto from "../../componentes/ProfilePhoto/ProfilePhoto";
+import SelectEstado from "../../componentes/Selects/SelectEstado/SelectEstado";
+import "./CadastrarPet.css";
 
 
 const ColorSwitch = withStyles({

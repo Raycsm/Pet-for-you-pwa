@@ -1,9 +1,8 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import BackButton from '../../Components/BackButton/BackButton';
-import BottomMenu from "../../Components/BottomMenu/BottomMenu";
-import MeuPetCard from "../../Components/Cards/MeuPetCard/MeuPetCard";
-import "./MeuPet.css"
+import BackButton from '../../componentes/BackButton/BackButton';
+import BottomMenu from "../../componentes/BottomMenu/BottomMenu";
+import MeuPetCard from "../../componentes/Cards/MeuPetCard/MeuPetCard";
+import "./MeuPet.css";
 
 
 export default function MeuPet() {

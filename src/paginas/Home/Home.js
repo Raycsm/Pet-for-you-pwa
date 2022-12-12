@@ -1,12 +1,12 @@
-import React from "react";
-import BottomMenu from "../../Components/BottomMenu/BottomMenu";
-import logo from "../../assets/logo.png"
 import IconButton from '@material-ui/core/IconButton';
 import FilterListIcon from '@material-ui/icons/FilterList';
+import React from "react";
 import { useNavigate } from 'react-router-dom';
-import DrawerMenu from "../../Components/DrawerMenu/DrawerMenu";
-import Carrousel from "../../Components/Carrousel/Carrousel"
-import PetsCard from "../../Components/Cards/PetsCard/PetsCard"
+import logo from "../../ativos/logo.png";
+import BottomMenu from "../../componentes/BottomMenu/BottomMenu";
+import PetsCard from "../../componentes/Cards/PetsCard/PetsCard";
+import Carrousel from "../../componentes/Carrousel/Carrousel";
+import DrawerMenu from "../../componentes/DrawerMenu/DrawerMenu";
 import "./Home.css";
 
 export default function Home() {
